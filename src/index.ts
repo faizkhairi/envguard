@@ -1,0 +1,7 @@
+export { scanDirectory } from './scanner'
+export { parseEnvFile, discoverEnvFiles, findExampleFile, findPrimaryEnv } from './parser'
+export { audit } from './audit'
+export { reportText, reportJSON } from './reporter'
+export type { ScanResult } from './scanner'
+export type { EnvFile } from './parser'
+export type { AuditResult, AuditIssue } from './audit'
