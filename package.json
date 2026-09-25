@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
-    "test": "node --test dist/**/*.test.js",
+    "test": "node --test dist/*.test.js",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
