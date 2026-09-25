@@ -1,6 +1,6 @@
 {
   "name": "@faizkhairi/envguard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency CLI to audit environment variables -- find missing, unused, and undocumented env vars across your codebase",
   "main": "dist/index.js",
   "bin": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "pretest": "npm run build",
     "test": "node --test dist/**/*.test.js",
     "prepublishOnly": "npm run build"
   },

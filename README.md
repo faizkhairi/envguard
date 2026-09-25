@@ -5,7 +5,7 @@ Zero-dependency CLI to audit environment variables -- find missing, unused, and 
 ## Install
 
 ```bash
-npm install -g envguard
+npm install -g @faizkhairi/envguard
 ```
 
 ## Usage
@@ -82,13 +82,13 @@ envguard exits with code `1` when missing variables are found, making it easy to
 
 ```yaml
 # GitHub Actions
-- run: npx envguard
+- run: npx @faizkhairi/envguard
 ```
 
 ```yaml
 # GitLab CI
 test:env:
-  script: npx envguard
+  script: npx @faizkhairi/envguard
 ```
 
 ## Programmatic API
